@@ -9,10 +9,12 @@ free alternative to chess.com. A lot of people even prefer it over chess.com, to
 Tool for creating those petting gifs memes. 
 #### [KidPix](https://kidpix.app/)
 A port of KidPix to browser
-#### [Microsoft Paint](https://paint.js.org/)
-A javascript remake of Microsoft Paint to browser
+#### [Microsoft Paint in Browser (JSPaint)](https://paint.js.org/)
+A javascript remake of Microsoft Paint. install it as a PWA if u want :)
 #### [Nostalgic Kids' Sites](http://nostalgiakidssites.com/)
 An archival project managed by [Rare Noggin Stuff](https://www.youtube.com/c/RareNogginStuff) that's dedicated to hosting 00's and 10's websites aimed at pre-school children. Hosts snapshots of Nick Jr., Nick Jr. Playtime, PBS Kids, and PBS Sprout at the time of writing.
+#### [Webdesign Museum](https://www.webdesignmuseum.org/)
+sort of like the [wayback machine](https://web.archive.org/), but its a curated list of old websites, but they're just screenshots. They also have sections for old apps and software.
 #### [Neal.fun](https://neal.fun/)
 Cool little distractions by [a guy named Neal](https://twitter.com/nealagarwal).
 #### [Spellcheck, a word game](https://spellcheck.xyz/)
@@ -48,6 +50,10 @@ a commercial free crowdfunded multi-stream internet radio station. They have a b
 not linking to any of them specifically because they often go down, just use any that are starred. i like boomerang :)
 #### [funcube](https://funcube.space)
 just a random stream of stuff running 24/7 with an irc chat to the side, clearly by a y2k nostalgia-head (based). Unfortunately kinda better than boomerang and the disgrace that is the modern nicktoons channel.
+#### [Radio Plus Anime Super Go](http://animego.ddns.net:1010/anime.aac)
+"Rare Anime and Science Fiction, Sounds, Soundtracks, Filk music, comedy, and more, streaming from my private collection, done in the style of a VIRTUAL RADIO STATION!"
+a radio station ran by [Jennifer Diane Reitz](https://jenniverse.com/), whom you may know for being the writer of Pastel Defender Heliotrope, Unicorn Jelly, or The Conversion Bureau, as well as the designer of Boppin' for the amiga, if you're into outsider art. its basically just a collection of stuff she likes. Silly, autistic, fun. That's the best way i can explain it. Makes me nostalgic randomly and unexpectedly.
+
 
 # Misc
 #### [Transfeminine Science](https://transfemscience.org/)

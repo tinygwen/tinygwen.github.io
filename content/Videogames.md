@@ -9,7 +9,9 @@ Extremely useful resource for learning about emulation. Lists all noteworthy emu
 > [!tip]- Use this if you dont know what the best emulator is for any given system!
 > This information is heavily subject to change over time (the scene moves faster than you'd think), so I dont list it here. Use the wiki!
 #### [Retroarch](https://www.retroarch.com/) 
-The frontend for libretro. Nice if you want to have all your retro games in one place, navigable with a controller, and especially useful if you're looking to use it's unique features (netplay, [shaders](https://youtu.be/mp0CF2S9N5o), etc). Download emulators as cores from within the program, scan for your games, and then run the game with their respective core. Easier than it sounds. I prefer it to standalone counterparts for most emulators for generation 5 consoles and older. Retroarch is also nice for emulating on console. I have retroarch installed on my Switch, for example. fuck the Nintendo Switch Online shitto expansion pack rent but never own bullshit
+The frontend for libretro. Nice if you want to have all your retro games in one place, navigable with a controller, and especially useful if you're looking to use it's unique features (netplay, [shaders](https://youtu.be/mp0CF2S9N5o), etc). I prefer it to standalone counterparts for most generation 5 consoles and older, though.
+Retroarch is also nice for emulating on console. I have retroarch installed on my Switch, for example. fuck the Nintendo Classics shitto rent but never own bullshit
+- [Retroarch System Files](https://myrient.erista.me/files/Internet%20Archive/chadmaster/RetroarchSystemFiles/Retroarch-System/), [Archive.org](https://archive.org/details/RetroarchSystemFiles) a drag-n-drop collection of system files (bios) for retroarch
 > [!note]- claims of abusive behavior regarding Retroarch's lead developer [\[1\]](https://x.com/BlueMaxima/status/1488826694626525185)
 > squerepusher/TwinAphex has a lot of allegations regarding abusive behavior towards other developers in the emulation scene, including potentially contributing to Near's suicide, blackmailing Stenzek, and more. None of this information is compiled in a formal/centralized source, but I'd be remiss not to mention it. Hopefully the scene creates a competitive alternative some day.
 >> [!info] Retroarch Alternatives: [Emulation Wiki's Frontends article](https://emulation.gametechwiki.com/index.php/Frontends), [OpenEmu](https://openemu.org/) (Mac), and keep an eye on [Highscore](https://gitlab.gnome.org/World/highscore) (linux, unreleased). These, or ES-DE (below)
@@ -58,6 +60,11 @@ An amazing kart racer mod for [Sonic Robo Blast 2](https://www.srb2.org/), which
 A fan-made multiplayer Super Mario Bros. style deathmatch game in which players try to beat one another in a variety of gameplay modes. Super fun party game. Basically, Duck Game before Duck Game, with goomba stomps. If you're not sold [here's a video showcasing the game and talking about it's history](https://www.youtube.com/watch?v=RqS7ad_BFg4)
 #### [Power Bomberman](https://www.bombermanboard.com/viewtopic.php?t=1925) 
 A feature-rich Bomberman fangame. supports up to 12 players, has over 650 characters, over 70 stages, and an unprecedented level of settings to tweak.
+#### [(Rhythm) Heaven Studio](https://archive.org/details/heaven-studio)
+[control guide](https://heaven-studio-control-guide.super.site/), [dev curated levels](https://archive.org/details/heaven-studio-devs-picks-level-pack), [levels that shipped with HS](https://archive.org/details/heaven-studio-official-levels), 
+A tool to create playable Rhythm Heaven custom remixes. There's a ton of fan-made levels and youtube showcase videos out there, so youtube and the discord's level showcase channel are good places to look.
+Unfortunately, the [itch.io page](https://rheavenstudio.itch.io/heaven-studio) does not include any downloads due to a DMCA from nintendo, but the tool is still available from the archive.org link.
+If anyone has a collection of official nintendo charts and minigames remade in Heaven Studio, [[Discussion|lmk]].
 ### Randomizers
 #### [The Big List of Video Game Randomizers](https://github.com/video-game-randomizers/rando-list) 
 A well maintained list of all videogame randomizers the author knows of. Pretty swell :)
@@ -106,16 +113,29 @@ An open-source re-implementation of Chris Sawyer's Roller Coaster Tycoon 2, howe
 a fine official way to play scenerios from both games on mobile devices. I like the way it orders scenerios :)
 #### [OpenTTD](https://www.openttd.org/)
 An open-source simulation game based on Chris Sawyer's Transport Tycoon Deluxe. You can provide a copy of the original TTD for original graphics and sound. [TTD iso](https://archive.org/details/msdos_Transport_Tycoon_Deluxe_1995)
+### Clonk
+#### [OpenClonk](https://www.openclonk.org/)
+An open-source continuation of Clonk, a series of PC games that were quite popular in Germany. The classic clonk games are sort of inspired by worms, settlers, and lemmings.
+In 2014, RedWolf open-sourced their code and has handed the game over to their community. Many compare the current gameplay to terraria and minecraft, but of course these games weren't around when Clonk started in the 90s. In some ways, like terraria and minecraft, Clonk has sort of become a 2D sandbox engine with a game already in it. [series showcase video](https://www.youtube.com/watch?v=4w6n5ERJraU)
+#### [ccan.de](https://ccan.de/)
+The community's modding archive repo for the game. The most popular mod at the time of writing was published last month (Feb 2025), so the community is still very active!
+#### [Clonk 1-4 + Clonk Planet](http://www.clonk.de/classics.php), [Clonk Rage + Clonk Endeavor](http://www.clonk.de/index.php) 
+official downloads for all the commercial games in the Clonk series that were developed by RedWolf. 
+
 ### Doom
+>[!important]- Official .WADs ("roms") are over [[Piracy#[DOOM .wads](https//myrient.erista.me/files/Internet%20Archive/chadmaster/2020_03_22_DOOM/DOOM%20WADs/|here]]!
+
+>[!note]- For sourceport comparisons, check Dwars' Overview
+>[Dwars' Overview on YouTube](https://youtu.be/pILDo05ANDk),
+>[Doom + Doom II addendum](https://www.youtube.com/watch?v=8-y8wdGY8ks)
 #### 🌟 [Crispy Doom](https://github.com/fabiangreffrath/crispy-doom)
-is my preferred way to play DOOM and DOOM II. It's a fork of the sourceport [Chocolate Doom](https://github.com/chocolate-doom/chocolate-doom). There isn't really a definitive way to play Doom, but this is very good if you want to preserve the original experience with higher resolution, framerate, mouse look, better controls, etc. Do not enable jump or free vertical looking.
-[Dwars' Overview](https://youtu.be/pILDo05ANDk) + [Doom + Doom II addendum](https://www.youtube.com/watch?v=8-y8wdGY8ks) are both good watches if you want more info on sourceport options out there.
+is my preferred sourceport. It's a fork of [Chocolate Doom](https://github.com/chocolate-doom/chocolate-doom). There isn't really a definitive way to play Doom, but this is very good if you want to preserve the original experience with higher resolution, framerate, mouse look, better controls, etc. Do not enable jump or free vertical looking.
 * [Roland SC-55 Music Packs](https://sc55.duke4.net/) This site provides music packs meant to emulate the sound of a Roland SC-55. If you're using Crispy Doom, be sure to download the config files for it. The SC-55 was a sound module released in 1991, and is widely considered to provide the best sound for DOS games. I'm not sure why Crispy Doom doesn't replicate it by default. [E1M1 Comparisons](https://www.youtube.com/watch?v=t9IRWOzs0T0) (SC-55 starts at 9:50)
-#### [.wad files](https://archive.org/details/2020_03_22_DOOM)
-These are basically DOOM's "ROMs" You'll want to get The Ultimate Doom, Doom II Hell On Earth 1.9, and optionally Doom II No Rest For The Living BFG edition, SIGIL, and [Legacy of Rust](https://archive.org/details/doom-legacy-of-rust-2024_202408), then go from there.
-Doom has a complicated release history, so i recommend cross-referencing the [Doom Wiki](https://doomwiki.org) just in case to make sure you're getting the version of the game you prefer. Later re-releases had more levels for example.
-#### [Doom + Doom II](https://isthereanydeal.com/game/doom-and-doom-ii/info/), [Fitgirl](https://fitgirl-repacks.site/doom-i-ii-2024/) 
-id/Bethesda's most recent port for Doom to modern hardware at the time of writing. Good if you just want to pick up and go. Contains optional [remixed music](https://www.youtube.com/watch?v=WBmD84EExmo), and a new official chapter (as well as sigil and other past expansions). Even has a mod list to play modded wads from an easy to browse menu, albeit this feature is absent from the switch release and leaves some to be desired (and also isn't compatible with gzdoom exclusive wads). Regardless, this is by far the best official way to play Doom, and is a significant improvement over the Unity ports. See the [Dwars' overview addendum](https://www.youtube.com/watch?v=8-y8wdGY8ks) for more info
+#### [Doom + Doom II](https://isthereanydeal.com/game/doom-and-doom-ii/info/)
+((also on [Fitgirl](https://fitgirl-repacks.site/doom-i-ii-2024/)) normally this'd be in [[Piracy]], but i figured i'd keep soureport info here))
+id/Bethesda's most recent official sourceport for Doom to modern hardware at the time of writing. Good if you just want to pick up and go. Contains optional [remixed music](https://www.youtube.com/watch?v=WBmD84EExmo), and a new official chapter (as well as sigil and other past expansions).
+Even has a mod list to play modded wads from an easy to browse menu, albeit this feature is absent from the switch release and leaves some to be desired (and also isn't compatible with gzdoom exclusive wads).
+Regardless, this is by far the best _official_ way to play Doom, and is a significant improvement over the Unity ports. See the [Dwars' overview addendum](https://www.youtube.com/watch?v=8-y8wdGY8ks) for more info
 #### [GZDoom](https://zdoom.org/index) 
 is a sourceport which is good for virtually every modded doom wad, especially since many wads dont support other sourceports. Change texture filtering to none in the options. [Doomworld 25 Years](https://www.doomworld.com/25years/) is a good place to start to discover modded wads, as is their Cacowards ceremony. My favorite wad is [MyHouse.wad](https://www.doomworld.com/forum/topic/134292-myhousewad/). I also quite like [Treasure Tech](https://forum.zdoom.org/viewtopic.php?t=66995). I have not played many custom wads.
 #### [SIGIL, SIGIL II](https://romero.com/sigil) 
