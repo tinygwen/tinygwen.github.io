@@ -1,6 +1,9 @@
 ---
 title: 🐝 Minecraft
 description:
+tags:
+  - videogame
+  - minecraft
 ---
 # Play
 #### [Prism Launcher](https://prismlauncher.org/)
@@ -25,17 +28,19 @@ an [open source](https://github.com/modrinth) minecraft mod distribution platfor
 #### [MCArchive](https://mcarchive.net/)
 archives old minecraft mods and makes them easier to find, and keeps them publicly accessable even after creators delist or discontinue them. They only provide downloads to mods not available from their original source, else, they direct you to the original source.
 ## Performance and Optimization
-####  [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized) / [Adrenaline](https://modrinth.com/modpack/adrenaline) / [Vulkan Optimized](https://modrinth.com/modpack/vulkan-optimized) / [OMC Fabric](https://modrinth.com/modpack/optimized-minecraft-bypsk/version/(Fabric)1.2.0+Nvidium)
-- **Fabulously Optimized** is essentially a [drop-in replacement for optifine](https://wiki.download.fo/give-up-optifine). If you liked optifine for its bells and whistles like zoom, capes, resource pack features, etc., then go with FO. [Perforium](https://modrinth.com/modpack/performium-was-taken) also comes with many optifine features, but isn't a drop in replacement. It probably runs better on your system, so its worth checking out if you want a middle-ground there. Point is: optifine should be dead, do not use it.
-- **Vulkan Optimized** straight up replaces the entire OpenGL rendering engine with a Vulkan one. You'll need newer graphics cards to take advantage, but on the correct hardware the performance gains are in their own league at normal render distances. I'd recommend a 64bit system with a GTX600 / Radeon HD 7000 or greater, as well as 8GB ram or more if you plan to use this mod. I know this makes it sound like its demanding, but if you meet the system requirements this pack will perform the best.
-- **Adrenaline** is, as far as i know, the most performant modpack (on average, at 18-22 chunks, that doesn't outright replace the rendering engine of the game like Vulkan Optimized does) at the time of writing. This said, [Simply Optimized](https://modrinth.com/modpack/sop) is a close second (less than 1% performance distance, within margin of error). Both do not include QoL mods.
-- **OMC Fabric** performs better than any other optimization mod when running high render distances (30+ chunks) at the time of writing. Yes, i know it has like no downloads, but that's the truth, so don't let it dissuade you. There's a Nvidium version for those with a Nvidia card, too.
-- **tl;dr** Fabulously Optimized to replace optifine, Vulkan Optimized if your system can run it, Adrenaline if your system can't, and OMC Fabric if you want to play at large render distances.
+####  [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized) / [Adrenaline](https://modrinth.com/modpack/adrenaline) / [Vulkan Optimized](https://modrinth.com/modpack/vulkan-optimized)
+> [!warning]- This section may be out of date
+> This section was written around Spring 2025, and is highly subject to changing over time. 
+
+- [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized) is essentially a [drop-in replacement for optifine](https://wiki.download.fo/give-up-optifine). If you liked optifine for its bells and whistles like zoom, capes, resource pack features, etc., then go with FO. [Perforium](https://modrinth.com/modpack/performium-was-taken) also comes with many optifine features, but isn't a drop in replacement. It probably runs better on your system, so its worth checking out if you want a middle-ground there. Additive is ran by the adrenaline team and also acts as an optifine alternative, and even Vital which is an alternative to essential can act as an alternative to optifine. Point is: optifine should be dead, do not use it.
+- [Vulkan Optimized](https://modrinth.com/modpack/vulkan-optimized) straight up replaces the entire OpenGL rendering engine with a Vulkan one using [VulkanMod](https://modrinth.com/mod/vulkanmod). You'll need a newer graphics card to take advantage, but on the correct hardware the performance gains are in their own league at normal render distances. I'd recommend a 64bit system with a GTX600 / Radeon HD 7000 or greater, as well as 8GB ram or more if you plan to use this mod. I know this makes it sound like its demanding, but if you meet the system requirements this pack will perform the best. In the future, this mod may also not be necessary since Mojang is planning on adding vulkan support in the future.
+- [Adrenaline](https://modrinth.com/modpack/adrenaline) is, as far as i know, the most performant modpack (on average, at 18-22 chunks, that doesn't outright replace the rendering engine of the game like Vulkan Optimized does) at the time of writing. This said, [Simply Optimized](https://modrinth.com/modpack/sop) is a close second (less than 1% performance distance, within margin of error). Both do not include QoL mods.
+- **tl;dr** Fabulously Optimized to replace optifine, Vulkan Optimized if your system can run it, Adrenaline if your system can't.
 if you dont want to use a modpack, start with lithium and sodium at the very least, and then look at the mods used in the latest version of Adrenaline/Simply and go from there.
 #### [Nvidium](https://modrinth.com/mod/nvidium) / [Distant Horizons](https://modrinth.com/mod/distanthorizons)
 These throw a wrench in the recommended performance mods above, and i'm not sure what the best mods to pair these with would be. Perhaps just use Adrenaline as a base. Nevertheless,
-- **Nvidium** is a replacement rendering backend for sodium that only supports Nvidia GPUs. Its main advantage is that the developer used black magic (mesh shaders) to allow for insane render distances. Like we're talking rendering all of hermitcraft season 8. This mod does not use LoD. Its all rendered in real time, as fully loaded chunks. If you want an optimization modpack that uses Nvidium, I recommend [OMC Fabric](https://modrinth.com/modpack/optimized-minecraft-bypsk/version/(Fabric)1.2.0+Nvidium)
-- **Distant Horizons** on the otherhand does use LoD (Level of Detail), which is a common technique used by most 3D games. Essentially, non-loaded chunks aren't loaded, and appear as simplified, fake terrain. Yes, this works with player made structures.
+- **Nvidium** is a replacement rendering backend for sodium that only supports Nvidia GPUs. Its main advantage is that the developer used black magic (mesh shaders) to allow for insane render distances. Like we're talking rendering all of hermitcraft season 8 at once. This mod does not use LoD. Its all rendered in real time, as fully loaded chunks.
+- **Distant Horizons** on the other hand does use LoD (Level of Detail), which is a common technique used by most 3D games. Essentially, non-loaded chunks aren't loaded, and appear as simplified, fake terrain. Yes, this works with player made structures.
 #### [Bobby](https://modrinth.com/mod/bobby)
 Many servers force players to play with low render distances, since the server has to handle the chunks around a player. Bobby allows you to have view distances greater than what the server you're connecting to allows for. Basically, it caches chunks onto your system and loads them client side. Optionally, can also use a singleplayer world as a fallback if you've never loaded a given chunk on the server before, if you happen to have the server's seed.
 Of course, in both these contexts bobby would leave you in the dark to any changes other players may have made to un-cached or out of date cached chunks.
@@ -93,12 +98,14 @@ a fan-made remaster of the original acid shaders by mininggodbruce. Super cool. 
 #### [Better Than Adventure](https://www.betterthanadventure.net/) a beta 1.7.3 continuation
 Better Than Adventure is essentially an extensive fork of beta 1.7.3. It asks "what if mojang kept the game design sensibilities of beta, before the adventure update?" So sick. I highly recommend you check out their [trailers](https://www.youtube.com/@BetterthanAdventure/videos), starting from the release 1.7.7.0 trailer.
 Mods and servers for BTA are available on their discord :T
-#### [MCSX](https://www.curseforge.com/minecraft/modpacks/mcsx-minecraft-ps1-edition)
-a cute little horror/arg modpack that pretends its a cursed PlayStation 1 release of minecraft. Uses a modified version of the minecraft-psx shader above.
+#### [Raspberry Flavoured](https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured)
+My favorite modpack of all time, maybe the only one i've seen with its design as well thought out as it is, with as much attention to detail as it has. Intrinsically motivated players will thrive in this sandbox focused mod. Controversially, it removes villagers, the end, and xp. However the systems it replaces these mechanics with i think serve the game very, very well.
 #### [Re-Console](https://modrinth.com/modpack/legacy-minecraft)
 recreates the feeling of legacy console edition in java. Nice if you're nostalgic about xbox 360 edition like i am :)
 Re-Console's pitch is "if legacy console edition never ended", so it still has features from newer versions of the game. [Re-Console: Legacy](https://github.com/ViolaFlower/Re-Console-Legacy) is meant to emulate the experience of legacy versions outright, without the new features, and is made by the same developer.
-Re-console and re-console: legacy are modpacks using the [Legacy 4j](https://modrinth.com/mod/legacy4j) mod. 
+Re-console and re-console: legacy are modpacks using the [Legacy 4j](https://modrinth.com/mod/legacy4j) mod.
+#### [MCSX](https://www.curseforge.com/minecraft/modpacks/mcsx-minecraft-ps1-edition)
+a cute little horror/arg modpack that pretends its a cursed PlayStation 1 release of minecraft. Uses a modified version of the minecraft-psx shader above.
 # Other
 ## Worlds / Minigames
 #### [Skyblock (Standard)](https://modrinth.com/datapack/standard-skyblock)
@@ -137,11 +144,18 @@ they also have an official server, but its a public lobby `wiiparty.spmc.co`
 #### [Warioware in Minecraft](https://www.planetminecraft.com/project/warioware-inc-in-minecraft/)
 >[!warning] needs description
 ## Servers
-#### Self Host: [VPS Price Tracker](https://vpspricetracker.com/) + [Minecraft Docker Server](https://docker-minecraft-server.readthedocs.io/en/latest/)
-a site that helps you find the cheapest Virtual Private Server host (non minecraft specific), and a minecraft docker script that you can use regardless of if you're hosting on your home machine or renting a vps. [setupmc.com](https://setupmc.com/java-server/) can be used to help build a docker server compose script, which is what i use :)
-This is way easier than it sounds, but if you really dont want to do the setup yourself then idk use modrinth or arth or something probably: [Minecraft Dedicated Server Host Testing Data by CygnusMC](https://docs.google.com/spreadsheets/d/1HZE7Pi6FPEhbN-JQtXKX69Udp6dA5OBOu4Kpdzz53MI)
-[here's](https://minecraft.wiki/w/Server/Requirements/Dedicated) a link to the minecraft wiki's recommendations for server hardware based on demand.
-#### Server Lists
+#### Self Host: [Minecraft Docker Server](https://docker-minecraft-server.readthedocs.io/en/latest/)
+[setupmc.com](https://setupmc.com/java-server/) can be used to help build a docker server compose script, which is what i use :)
+This is way easier than it sounds, but if you really dont want to do the setup yourself then consult the chart for a minecraft server host: [Minecraft Dedicated Server Host Testing Data by CygnusMC](https://docs.google.com/spreadsheets/d/1HZE7Pi6FPEhbN-JQtXKX69Udp6dA5OBOu4Kpdzz53MI)
+you can use a generic [VPS](https://vpspricetracker.com/), but best practice is to use a minecraft host since their hardware is chosen specifically for the game, and you'll get better price to performance that way.
+#### Automatic Multiplayer Mods:
+##### [Vital](https://usevital.github.io/) (Essential alternative)
+Vital is an alternative to the [kinda scummy](https://notessential.blurry.gay/#why-not?) Essential-mod and Optifine as well. Vital simply bundles the suggestions made in NotEssential into a modpack.
+##### [World Host](https://modrinth.com/mod/world-host)
+This is what vital uses for multiplayer, and has a friends system. UPnP mode is tried first. Your client tries to open a temporary port forward in your router that your friends client can use to connect to you directly. If UPnP fails, then your client tells the server to use Proxy mode. The server will then give your friend's client the same "proxy IP" as `/worldhost ip` does.
+##### [e4mc](https://modrinth.com/project/qANg5Jrr)
+similar to World Host but is better for heavily modded instances. e4mc is a reverse tunneling reverse proxy for Minecraft. In simpler terms, it's a software that allows you to temporarily expose a local Minecraft server to the internet. Make sure your mod lists are identical so you dont desync!
+#### Server List Sites
 generally speaking you'll find higher quality, more interesting servers via personal recommendation, youtube showcases, from patreon whitelisted servers from your fav content creators, or in your existing community's minecraft server, but server lists like these still provide some value, so:
 - [The Official Minecraft Server List](https://findmcserver.com/)
 	something not many people know exists, but it does. Licensed and affiliated with mojang, by gamersafer. Its pretty heavily moderated and squeaky clean, but y'know, its a place to start.
@@ -168,13 +182,6 @@ wtf minecraft fishing simulator 300+ fish fishing simulator scientifically accur
 how the hell do i find more unique cool and original servers like this
 if you're a sweat, [FishOnTools](https://dannypx.github.io/FishOnTools/) and the [FishOnMC wiki](wiki.fishonmc.net) may prove useful
 IP: `play.fishonmc.net`
-#### [Wynncraft](https://wynncraft.com) / [Monumenta](https://playmonumenta.com) / [Megido Abyss](https://medigo.xyz)
-Wynncraft is probably Minecraft's largest MMO project next to hypixel skyblock. Very visually impressive, cool spell systems, custom resource pack. Its been in development for over a decade and it shows. Very nias.
-IP: `play.wynncraft.com`
-Monumenta stays closer to vanilla mechanics and goes in a dungeon crawler direction. One dungeon of note is Darkest Depths, which is procedurally generated dungeon that wipes your character and gives you abilities only for this one dungeon over the course of the run... yes... its a roguelike. its neat. Regions in architect 3 are also so pretty.
-IP: `server.playmonumenta.com`
-Megido Abyss is another MMO server, but this one has souls-like combat. Perries, dodging, bosses. y'know how it be. Unfortunately, the player count is quite low.
-IP: `play.medigo.xyz`
 #### [Library of Babel](https://doteye.online/projects/mclob/)
 The [library of babel](https://libraryofbabel.info/) (inspired by the [short story](https://archive.org/details/TheLibraryOfBabel)), playable in minecraft. A direct download for the library of babel would be ~400 petabytes large, so you have to either join on the server or host the custom server software yourself to explore.
 IP: `mclob.doteye.online`
@@ -182,11 +189,12 @@ IP: `mclob.doteye.online`
 From around mid 2019 to late 2020, jeb would sometimes post to reddit experimental combat snapshots which radically changed combat systems in the game significantly. here's a showcase of what the combat is like. These are servers for the Combat Test Snapshot (CTS) community. 
 >[!warning] showcase still needed. all these servers might be dead?
 #### Seemingly Best of Genre
-i've done light research into each of these, but dont play them all. These are mostly my first instinct if i want to play these types of gamemodes for a bit. if you have suggestions or any of these seem wrong, say as much in the discussion page please!
+i've done light research into each of these, but dont play them all. These are mostly my first instinct if i want to play these types of game modes for a bit. if you have suggestions or any of these seem wrong, say as much in the discussion page please!
 - SMP / Factions: [OG Network](https://www.og-network.net/)
 	The pitch is that its meant to be the go-to basic gamemodes like SMP and Factions and such. PvP / Griefing is allowed. SMP has a player run marketplace, etc.
 	Griefing in SMP is lightly discouraged with a reputation system. You can give players + or - rep which everyone can see, but else its just allowed.  enough - rep takes away /tpa, /spawn, etc. at -15 rep everyone can see your position at all times. Pretty neat.
 	They also have og survival games but it doesn't seem like anyone plays it, which is a shame because that's probably the only place where getting a game going is possible. I'd like to see them add skyblock personally.
+	Its ran by a [slop YouTuber](https://www.youtube.com/@TheMisterEpic), but one of those that has made a lot of videos duping on pay-to-win lootcrate servers and is sort of immersed in that sort of part-dirtbag part gaming-needs-to-do-better cultures, so the bullshit is very minimum and he seems to care about making a good server.
 	IP: `og-network.net`
 	Else, just join your friend's server for SMP lol. Or maybe your favorite creator's patreon or something idk.
 - Anarchy: [2b2t.org](https://2b2t.org) / [Constantiam](https://constantiam.net) 
@@ -195,8 +203,8 @@ i've done light research into each of these, but dont play them all. These are m
 	of course, both servers have 4chan and adjacent culture. Comes with the territory. That said, Constantiam's culture isn't quite like 2b's, and that's by design. Don't just go griefing everything you see. Like, you can, just don't be a dweeb about it.
 	IP: `2b2t.org` / `constantiam.net`
 	- if you want a museum of projects built on 2b2t and Constantiam, there's an unofficial museum server at the IP `thearchive.world`
-- Battle Royale / Survival Games / UHC: [Hoplite](https://hoplite.gg/)
-	To be quite honest, more interesting than any oldschool hunger games ever was. Its sort of its own thing with custom weapons and such, but the vanilla game is certainly still in here. [Zova's Videos](https://www.youtube.com/watch?v=aRInOWZp-ZQ) will give you an idea on how the server plays.
+- Battle Royale / Survival Games / Hunger Games: [Hoplite](https://hoplite.gg/)
+	To be quite honest, more interesting than any oldschool hunger games ever was. Its sort of its own thing with custom weapons and such, but the vanilla game is certainly still in here. [Rekrap's Hoplite videos](https://www.youtube.com/@rekrap1/search?query=hoplite) will give you an idea on how the server plays.
 	IP: `hoplite.gg`
 - PvP: [PvP Legacy](https://pvplegacy.net/)
 	this is the primary server I've been told about for PvP. You can make custom kits and fight players in an arena with those kits
@@ -204,11 +212,16 @@ i've done light research into each of these, but dont play them all. These are m
 - Parkour: [CyloneMC](https://CyloneMC.net)
 	this is that parkour server you see in all the ai slop vids on your fyp. Players can build their own parkour maps then add them to the public database, and a speedrunning leaderboard is maintained, so there's hundreds of parkour maps for every skill level. Its nice.
 	IP: `mc.cylonemc.net` 
-- Creative: [CreativeFun](https://creativefun.net/)
-	creative unfortunately seems to be a dying genre, but this is the only one that looks active to me which i've seen people talk about
-	IP: `play.creativefun.net`
 - Skyblock: [Skyblock.net](https://skyblock.net)
+	This one i'm not so sure about, but it is owned by NoobCrew, the original designer of the gamemode. So i guess it has that going for it, despite everything else going on in the server and how [litigious about their copyright](https://skyblock.net/threads/skyblock-and-the-minecraft-marketplace-a-legal-battle.145369/) they are.
 	IP: `skyblock.net`
+- MMO: [Wynncraft](https://wynncraft.com) / [Monumenta](https://playmonumenta.com) / [Megido Abyss](https://medigo.xyz)
+	- Wynncraft is probably Minecraft's largest MMO project next to hypixel skyblock, and is the original. Very visually impressive, cool spell systems, custom resource pack. Its been in development for over a decade and it shows. Very nias.
+	  IP: `play.wynncraft.com`
+	- Monumenta stays closer to vanilla mechanics and goes in a dungeon crawler direction. One dungeon of note is Darkest Depths, which is procedurally generated dungeon that wipes your character and gives you abilities only for this one dungeon over the course of the run... yes... its a roguelike. its neat. Regions in architect 3 are also so pretty.
+	  IP: `server.playmonumenta.com`
+	- Megido Abyss is another MMO server, but this one has souls-like combat. Perries, dodging, bosses. y'know how it be. Unfortunately, the player count is quite low.
+	  IP: `play.medigo.xyz`
 - Hypixel Competitor 1: [CubeCraft](https://cubecraft.net)
 	probably hypixel's #1 competitor thanks to its presence on the bedrock featured servers list. The bedrock server is more popular, but the java server is plenty active. Some argue that hypixel bedwars ripped off cubecraft eggwars swag
 	IP: `play.cubecraft.net`
@@ -226,8 +239,9 @@ You can use the bang `!mcw` in DuckDuckGo to search the wiki, or use [[Customiza
 cute tool to automatically generate a totem based on your skin
 #### [Minecraft Heads](https://minecraft-heads.com/)
 Minecraft has a feature that lets you load in player heads as a block, this is a database of player heads that make for good decorative blocks. On each head's page, a command is provided to add the head to your in-game inventory without mods, which will work so long as you have op permissions on a cheats enabled world. If you want a good way to get some in survival, check out Vanilla Tweaks and Mini Blocks above. [freshcoal](https://freshcoal.com/maincollection.php) also has a heads collection which may prove useful.
-#### [Planet Minecraft Skin Editor](https://www.planetminecraft.com/skin-editor/)
-this is the best skin editor i know of, they also have a [banner editor](https://www.planetminecraft.com/banner/)
+#### [Need Cooler Shoes Skin Editor](https://needcoolershoes.com)
+This is the best skin editor i know of. they also have a [banner editor](https://needcoolershoes.com/banner)
+(though a lot of people use [Planet Minecraft's Skin Editor](https://www.planetminecraft.com/skin-editor/) and [banner editor](https://www.planetminecraft.com/banner/))
 #### [blockcolors.app](https://blockcolors.app/) / [blockpalette.com](https://www.blockpalettes.com)
 tools that makes it really easy to create a simple block palette for your next build.
 #### [plotz](https://www.plotz.co.uk/)
