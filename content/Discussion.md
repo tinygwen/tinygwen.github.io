@@ -1,6 +1,8 @@
 ---
 title: 💬 Discussion
 description: The site's meta discussion page
+tags:
+  - meta
 ---
 Discuss anything you'd like here, but it'll probably mostly be about the site lol
 

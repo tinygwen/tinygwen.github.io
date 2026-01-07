@@ -1,6 +1,8 @@
 ---
-title: Welcome to TinyGwen's Garden :3c
+title: 🐕 Welcome to TinyGwen's Garden :3c
 description: Software recommendations, piracy resources and cool stuff from a dog digging up rabbit holes
+tags:
+  - meta
 ---
 >[!danger] This site is still in alpha and has yet to be officially announced!
 >So please keep it on the downlow :)
@@ -12,7 +14,7 @@ Here you will find collection of things I personally use, think are useful, or t
 ## How do I navigate the garden?
 Some items could easily fit in more than one category. Use the search and nav-bar on the left to find what you're looking for (it searches all text on the site), and click the dog to return here. Items are in no particular order. If you find something interesting, you can middle click it to open it in a new tab :)
 
->[!important]- Please install [[Customization#Browser Extensions|uBlock Origin]], regardless of if you use any resources listed here.
+>[!important]- Please install [[PC Mods Extensions#Browser Extensions|uBlock Origin]], regardless of if you use any resources listed here.
 >uBO is more than just an adblocker. It's a tracker blocker, malware blocker, phisher blocker. It often makes sites faster and absolutely keeps you safer. ABP is not good enough, and is shady. Use uBO.
 >> [!info]- uBO will break on chromium based browsers soon.
 >> This is due to google's push for manifest v3 and its seemingly targeted approach to crippling adblock. If you want to use uBO, userscripts, and other extensions which rely on how manifest v2 handles extensions, please switch to firefox and harden it. Alternatively, brave has support for uBO and a few select other manifest v2 extensions built in. jump to uBlock Origin above to read more.
